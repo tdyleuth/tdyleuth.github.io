@@ -231,9 +231,9 @@ function Portfolio() {
                     <div className="description-box">
                         <h4>Shop-EZ</h4>
                         <p>
-                            Shop-Ez is the first full stack e-commerce website I
-                            collabarated with for my final project with
-                            Fullstack Academy.
+                            Shop-EZ is a full stack e-commerce website
+                            collabaration for my final project with Fullstack
+                            Academy.
                         </p>
                     </div>
                     <div className="link-box">
