@@ -235,7 +235,7 @@ function Portfolio() {
                         <h4>Shop-EZ</h4>
                         <p>
                             Shop-EZ is a full stack e-commerce website
-                            collabaration for my final project with Fullstack
+                            collaboration for my final project with Fullstack
                             Academy.
                         </p>
                     </div>
