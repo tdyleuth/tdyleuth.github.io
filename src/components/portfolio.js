@@ -156,7 +156,10 @@ function Portfolio() {
                                 Visit Site
                             </a>
 
-                            <a href="" target="blank">
+                            <a
+                                href="https://loving-bhabha-f96533.netlify.app/"
+                                target="blank"
+                            >
                                 View Source
                             </a>
                         </p>
@@ -274,7 +277,9 @@ function Portfolio() {
                         >
                             View Site
                         </a>
-                        <a className="popup-modal-dismiss">View Source</a>
+                        <a href="https://gifted-sinoussi-4ff286.netlify.app/">
+                            View Source
+                        </a>
                     </div>
                 </div>
                 {/* modal-05 End */}
@@ -301,7 +306,12 @@ function Portfolio() {
                         >
                             View Site
                         </a>
-                        <a className="popup-modal-dismiss">View Source</a>
+                        <a
+                            href="https://vibrant-poitras-548158.netlify.app/"
+                            target="blank"
+                        >
+                            View Source
+                        </a>
                     </div>
                 </div>
                 {/* modal-06 End */}

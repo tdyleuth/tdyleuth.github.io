@@ -31,7 +31,7 @@ function About({ resumeData }) {
 
                             <a
                                 href="https://drive.google.com/file/d/1CsJgWGT6cimbU6xb_0vlh3Mbhnlga28o/view?usp=sharing"
-                                target="_blank"
+                                target="blank"
                                 className="download-button"
                             >
                                 <i className="fa fa-download" />

@@ -4,7 +4,7 @@ function Header({ resumeData }) {
     return (
         <header id="home">
             <nav id="nav-wrap">
-                <a href="#" className="navbar-brand">
+                <a href="http://tdyleuth.github.io/" className="navbar-brand">
                     TD
                 </a>
 
