@@ -6,7 +6,11 @@ function About({ resumeData }) {
             <div className="about-container">
                 <div className="profile-container">
                     <h1 className="about-header">About Me</h1>
-                    <img id="profile-pic" src="images/profilepic.jpg" alt="" />
+                    <img
+                        id="profile-pic"
+                        src="./images/profilepic.jpg"
+                        alt=""
+                    />
                 </div>
                 <div>
                     <p>

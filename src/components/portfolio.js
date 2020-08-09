@@ -14,7 +14,7 @@ function Portfolio() {
                                 <img
                                     className="img-screens"
                                     alt=""
-                                    src="images/screens/whack-a-virus-sc.png"
+                                    src="./images/screens/whack-a-virus-sc.png"
                                 />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
@@ -54,7 +54,7 @@ function Portfolio() {
                                 <img
                                     className="img-screens"
                                     alt=""
-                                    src="images/screens/the-great-linkerator-sc.png"
+                                    src="./images/screens/the-great-linkerator-sc.png"
                                 />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
@@ -74,7 +74,7 @@ function Portfolio() {
                                 <img
                                     className="img-screens"
                                     alt=""
-                                    src="images/screens/shop-ez-sc.png"
+                                    src="./images/screens/shop-ez-sc.png"
                                 />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
@@ -93,7 +93,7 @@ function Portfolio() {
                                 <img
                                     className="img-screens"
                                     alt=""
-                                    src="images/screens/retro-draw-sc.png"
+                                    src="./images/screens/retro-draw-sc.png"
                                 />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
@@ -112,7 +112,7 @@ function Portfolio() {
                                 <img
                                     className="img-screens"
                                     alt=""
-                                    src="images/screens/to-do-app-sc.png"
+                                    src="./images/screens/to-do-app-sc.png"
                                 />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">

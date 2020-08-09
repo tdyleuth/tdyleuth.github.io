@@ -10,7 +10,7 @@ function Services() {
                     <img
                         className="service-icons"
                         alt="Web Content"
-                        src="images/web-content.png"
+                        src="./images/web-content.png"
                     />
                     <h2 className="service-heading">Front End</h2>
                     <p>HTML5</p>
@@ -22,7 +22,7 @@ function Services() {
                     <img
                         className="service-icons"
                         alt="Web Content"
-                        src="images/server.png"
+                        src="./images/server.png"
                     />
                     <h2 className="service-heading">Back End</h2>
                     <p>Node.js</p>
@@ -35,7 +35,7 @@ function Services() {
                     <img
                         className="service-icons"
                         alt="Web Content"
-                        src="images/network.png"
+                        src="./images/network.png"
                     />
                     <h2 className="service-heading">Deployment</h2>
 
