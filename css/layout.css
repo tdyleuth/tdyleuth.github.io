@@ -239,6 +239,7 @@ ul#nav li.current a {
     font-size: 25px;
     line-height: 30px;
     color: #ffffff;
+    text-align: center;
 }
 .profile-container {
     display: flex;
@@ -472,6 +473,10 @@ ul#nav li.current a {
     opacity: 0;
 }
 
+.site-link {
+    margin-right: 2em;
+}
+
 /* ------------------------------------------------------------------
 /* g. What-I-Do
 /* ------------------------------------------------------------------ */
@@ -551,7 +556,7 @@ h5 {
 #contact {
     background: #191919;
     padding-top: 15em;
-    padding-bottom: 15em;
+    padding-bottom: 20em;
     color: #ffffff;
     height: 100%;
 }
