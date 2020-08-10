@@ -78,7 +78,7 @@ function Portfolio() {
                                 />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
-                                        <h5>Shop Ez</h5>
+                                        <h5>Shop EZ</h5>
                                     </div>
                                 </div>
                                 <div className="link-icon">
@@ -285,9 +285,6 @@ function Portfolio() {
                         >
                             View Site
                         </a>
-                        <a href="https://gifted-sinoussi-4ff286.netlify.app/">
-                            View Source
-                        </a>
                     </div>
                 </div>
                 {/* modal-05 End */}
@@ -314,12 +311,6 @@ function Portfolio() {
                             target="blank"
                         >
                             View Site
-                        </a>
-                        <a
-                            href="https://vibrant-poitras-548158.netlify.app/"
-                            target="blank"
-                        >
-                            View Source
                         </a>
                     </div>
                 </div>
