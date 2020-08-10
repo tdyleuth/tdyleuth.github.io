@@ -150,6 +150,7 @@ function Portfolio() {
                     <div className="link-box">
                         <p>
                             <a
+                                className="site-link"
                                 href="https://loving-bhabha-f96533.netlify.app/"
                                 target="blank"
                             >
@@ -181,7 +182,11 @@ function Portfolio() {
                         </p>
                     </div>
                     <div className="link-box">
-                        <a href="https://thenews.netlify.app/" target="blank">
+                        <a
+                            className="site-link"
+                            href="https://thenews.netlify.app/"
+                            target="blank"
+                        >
                             View Site
                         </a>
                         <a
@@ -211,6 +216,7 @@ function Portfolio() {
                     </div>
                     <div className="link-box">
                         <a
+                            className="site-link"
                             href="https://linkeratorthegreat.herokuapp.com/"
                             target="blank"
                         >
@@ -241,6 +247,7 @@ function Portfolio() {
                     </div>
                     <div className="link-box">
                         <a
+                            className="site-link"
                             href="https://grace-shopper-ez-shop.herokuapp.com/"
                             target="blank"
                         >
@@ -272,6 +279,7 @@ function Portfolio() {
                     </div>
                     <div className="link-box">
                         <a
+                            className="site-link"
                             href="https://gifted-sinoussi-4ff286.netlify.app/"
                             target="blank"
                         >
@@ -301,6 +309,7 @@ function Portfolio() {
                     </div>
                     <div className="link-box">
                         <a
+                            className="site-link"
                             href="https://vibrant-poitras-548158.netlify.app/"
                             target="blank"
                         >
