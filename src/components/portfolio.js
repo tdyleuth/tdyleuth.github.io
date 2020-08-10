@@ -34,7 +34,7 @@ function Portfolio() {
                                 <img
                                     className="img-screens"
                                     alt=""
-                                    src="images/screens/the-news-sc.png"
+                                    src="./images/screens/the-news-sc.png"
                                 />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
@@ -135,7 +135,7 @@ function Portfolio() {
                 <div id="modal-01" className="popup-modal mfp-hide">
                     <img
                         className="scale-with-grid"
-                        src="images/screens/whack-a-virus-sc.png"
+                        src="./images/screens/whack-a-virus-sc.png"
                         alt=""
                     />
                     <div className="description-box">
@@ -196,7 +196,7 @@ function Portfolio() {
                 <div id="modal-03" className="popup-modal mfp-hide">
                     <img
                         className="scale-with-grid"
-                        src="images/screens/the-great-linkerator-sc.png"
+                        src="./images/screens/the-great-linkerator-sc.png"
                         alt=""
                     />
                     <div className="description-box">
@@ -228,7 +228,7 @@ function Portfolio() {
                 <div id="modal-04" className="popup-modal mfp-hide">
                     <img
                         className="scale-with-grid"
-                        src="images/screens/shop-ez-sc.png"
+                        src="./images/screens/shop-ez-sc.png"
                         alt=""
                     />
                     <div className="description-box">
@@ -258,7 +258,7 @@ function Portfolio() {
                 <div id="modal-05" className="popup-modal mfp-hide">
                     <img
                         className="scale-with-grid"
-                        src="images/screens/to-do-app-sc.png"
+                        src="./images/screens/to-do-app-sc.png"
                         alt=""
                     />
                     <div className="description-box">
@@ -286,7 +286,7 @@ function Portfolio() {
                 <div id="modal-06" className="popup-modal mfp-hide">
                     <img
                         className="scale-with-grid"
-                        src="images/screens/retro-draw-sc.png"
+                        src="./images/screens/retro-draw-sc.png"
                         alt=""
                     />
                     <div className="description-box">
