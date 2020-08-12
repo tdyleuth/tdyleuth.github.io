@@ -193,6 +193,22 @@ ul#nav li.current a {
     color: #f06000;
 }
 
+#right-nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#right-nav li {
+    padding: 18px 10px;
+}
+
+@media screen and (max-width: 372px) {
+    #nav {
+        display: none;
+    }
+}
+
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
