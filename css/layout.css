@@ -340,6 +340,13 @@ ul#nav li.current a {
     color: #000000;
 }
 
+.tech-categories {
+    font: 12px/18px "opensans-light", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
 /* Portfolio Content */
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
