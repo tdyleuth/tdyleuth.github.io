@@ -298,6 +298,11 @@ ul#nav li.current a {
     float: right;
 }
 
+@media screen and (max-width: 768px) {
+    .download-button {
+        margin-top: 2em;
+    }
+}
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
