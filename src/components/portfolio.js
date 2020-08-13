@@ -5,7 +5,6 @@ function Portfolio() {
         <section id="portfolio">
             <div>
                 <h1>What I've Done</h1>
-                <p>(More work to come!)</p>
                 {/* portfolio-wrapper */}
                 <div className="portfolio-container">
                     <div className="columns portfolio-item">
