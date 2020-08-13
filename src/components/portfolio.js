@@ -132,7 +132,7 @@ function Portfolio() {
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
                                         <h5>To Do App</h5>
-                                        <p class="tech-categories">
+                                        <p className="tech-categories">
                                             Vanilla JavaScript | jQuery
                                         </p>
                                     </div>
