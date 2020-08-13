@@ -333,11 +333,10 @@ ul#nav li.current a {
 
 #portfolio p {
     font: 18px "opensans-semibold", sans-serif;
-    text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
-    color: #000000;
+    color: #ffffff;
 }
 
 #tech-categories p {
@@ -404,7 +403,7 @@ ul#nav li.current a {
     padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
-    font: 14px/21px "opensans-bold", sans-serif;
+    font: 25px "opensans-bold", sans-serif;
     color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
