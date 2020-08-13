@@ -332,7 +332,7 @@ ul#nav li.current a {
 }
 
 #portfolio p {
-    font: 18px "opensans-semibold", sans-serif;
+    font: 15px "opensans-semibold", sans-serif;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
@@ -403,7 +403,7 @@ ul#nav li.current a {
     padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
-    font: 25px "opensans-bold", sans-serif;
+    font: 18px "opensans-bold", sans-serif;
     color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
