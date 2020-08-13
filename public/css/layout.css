@@ -327,7 +327,7 @@ ul#nav li.current a {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: rem;
     color: #000000;
 }
 
@@ -579,7 +579,7 @@ h5 {
 
 #contact {
     background: #191919;
-    padding-top: 15em;
+    padding-top: 20em;
     padding-bottom: 20em;
     color: #ffffff;
     height: 100%;
