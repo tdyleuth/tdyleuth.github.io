@@ -19,7 +19,7 @@ function Portfolio() {
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
                                         <h5>Whack-A-Virus</h5>
-                                        <p className="tech-categories">
+                                        <p id="tech-categories">
                                             JavaScript | jQuery
                                         </p>
                                     </div>
@@ -42,7 +42,7 @@ function Portfolio() {
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
                                         <h5>The News</h5>
-                                        <p className="tech-categories">
+                                        <p id="tech-categories">
                                             Vanilla JavaScript | jQuery
                                         </p>
                                     </div>
@@ -65,7 +65,7 @@ function Portfolio() {
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
                                         <h5>The Great Linkerator</h5>
-                                        <p className="tech-categories">
+                                        <p id="tech-categories">
                                             React.js | Express | PostgreSQL
                                         </p>
                                     </div>
@@ -110,7 +110,7 @@ function Portfolio() {
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
                                         <h5>Retro Draw</h5>
-                                        <p className="tech-categories">
+                                        <p id="tech-categories">
                                             Vanilla JavaScript | jQuery
                                         </p>
                                     </div>
@@ -132,7 +132,7 @@ function Portfolio() {
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
                                         <h5>To Do App</h5>
-                                        <p className="tech-categories">
+                                        <p id="tech-categories">
                                             Vanilla JavaScript | jQuery
                                         </p>
                                     </div>
