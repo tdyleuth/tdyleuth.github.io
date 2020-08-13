@@ -333,7 +333,7 @@ ul#nav li.current a {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: #000000;
 }
 
@@ -573,7 +573,7 @@ h5 {
 
 .service-heading {
     text-align: center;
-    padding-bottom: 1.5em;
+    padding-bottom: 2rem;
     font-size: 20px;
     text-transform: uppercase;
 }
