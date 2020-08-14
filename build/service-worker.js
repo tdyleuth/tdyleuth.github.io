@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tdyleuth.github.io/precache-manifest.764936cb8a472d01a22d6144af021237.js"
+  "/tdyleuth.github.io/precache-manifest.e28e319321c3bd228c910f552cd42ba4.js"
 );
 
 self.addEventListener('message', (event) => {
