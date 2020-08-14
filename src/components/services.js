@@ -14,8 +14,8 @@ function Services() {
                     />
                     <h2 className="service-heading">Front End</h2>
                     <p>HTML5</p>
-                    <p>CSS|SASS</p>
-                    <p>Javascript|jQuery</p>
+                    <p>CSS | SASS</p>
+                    <p>Javascript | jQuery</p>
                     <p>React</p>
                 </div>
                 <div className="card">
@@ -41,7 +41,7 @@ function Services() {
 
                     <p>System Design</p>
                     <p>Git</p>
-                    <p>Webpack|Babel</p>
+                    <p>Webpack | Babel</p>
                     <p>Heroku</p>
                 </div>
             </div>
