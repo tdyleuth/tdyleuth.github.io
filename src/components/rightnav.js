@@ -1,32 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 
 function RightNav() {
-    return (
-        <ul id="right-nav">
-            <li>
-                <a className="smoothscroll" href="#about">
-                    About
-                </a>
-            </li>
-            <li>
-                <a className="smoothscroll" href="#services">
-                    What I do
-                </a>
-            </li>
+    const [open, setOpen] = useState(false);
 
-            <li>
-                <a className="smoothscroll" href="#portfolio">
-                    Projects
-                </a>
-            </li>
+    const handleClick = () => {
+        setOpen(true);
+    };
 
-            <li>
-                <a className="smoothscroll" href="#contact">
-                    Contact
-                </a>
-            </li>
-        </ul>
-    );
+    const displayMobileMenu = () => {
+        return (
+            <ul id="right-nav">
+                <li className="nav-link">
+                    <a className="smoothscroll" href="#about">
+                        About
+                    </a>
+                </li>
+                <li className="nav-link">
+                    <a className="smoothscroll" href="#services">
+                        What I do
+                    </a>
+                </li>
+
+                <li className="nav-link">
+                    <a className="smoothscroll" href="#portfolio">
+                        Projects
+                    </a>
+                </li>
+
+                <li className="nav-link">
+                    <a className="smoothscroll" href="#contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        );
+    };
+
+    return <div className="navbar">{open ? displayMobileMenu() : null}</div>;
 }
 
 export default RightNav;

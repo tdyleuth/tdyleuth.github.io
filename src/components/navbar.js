@@ -1,5 +1,4 @@
 import React from "react";
-import RightNav from "./rightnav.js";
 
 function Navbar() {
     return (
@@ -32,9 +31,9 @@ function Navbar() {
                     </a>
                 </li>
                 {/* <li>
-                    <a className="burger-menu">
+                    <button className="burger-menu">
                         <i className="fa fa-bars"></i>
-                    </a>
+                    </button>
                 </li> */}
             </ul>
         </nav>
