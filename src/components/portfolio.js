@@ -12,7 +12,7 @@ function Portfolio() {
                             <a href="#modal-01">
                                 <img
                                     className="img-screens"
-                                    alt=""
+                                    alt="whack-a-virus"
                                     src="./images/screens/whack-a-virus-sc.png"
                                 />
                                 <div className="overlay">
@@ -35,7 +35,7 @@ function Portfolio() {
                             <a href="#modal-02">
                                 <img
                                     className="img-screens"
-                                    alt=""
+                                    alt="The News"
                                     src="./images/screens/the-news-sc.png"
                                 />
                                 <div className="overlay">
@@ -58,7 +58,7 @@ function Portfolio() {
                             <a href="#modal-03">
                                 <img
                                     className="img-screens"
-                                    alt=""
+                                    alt="The Great Linkerator"
                                     src="./images/screens/the-great-linkerator-sc.png"
                                 />
                                 <div className="overlay">
@@ -81,7 +81,7 @@ function Portfolio() {
                             <a href="#modal-04">
                                 <img
                                     className="img-screens"
-                                    alt=""
+                                    alt="Shop EZ"
                                     src="./images/screens/shop-ez-sc.png"
                                 />
                                 <div className="overlay">
@@ -103,7 +103,7 @@ function Portfolio() {
                             <a href="#modal-06">
                                 <img
                                     className="img-screens"
-                                    alt=""
+                                    alt="Retro Draw"
                                     src="./images/screens/retro-draw-sc.png"
                                 />
                                 <div className="overlay">
@@ -125,7 +125,7 @@ function Portfolio() {
                             <a href="#modal-05">
                                 <img
                                     className="img-screens"
-                                    alt=""
+                                    alt="To Do App"
                                     src="./images/screens/to-do-app-sc.png"
                                 />
                                 <div className="overlay">

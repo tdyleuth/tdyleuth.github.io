@@ -1,8 +1,8 @@
 {
-    "name": "resume",
+    "name": "porfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://tdyleuth.github.io/tdyleuth.github.io/",
+    "homepage": "http://tdyleuth.github.io/",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.5.0",
