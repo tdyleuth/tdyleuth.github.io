@@ -28,16 +28,17 @@ function About({ resumeData }) {
                                     {resumeData.email}
                                 </a>
                             </span>
-
+                        </p>
+                        <div id="button-container">
                             <a
-                                href="https://drive.google.com/file/d/1CsJgWGT6cimbU6xb_0vlh3Mbhnlga28o/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1puSLPFZq7L9RSWNRUCfeFm0t188TAI1s/view?usp=sharing"
                                 target="blank"
                                 className="download-button"
                             >
                                 <i className="fa fa-download" />
                                 Download Resume
                             </a>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
