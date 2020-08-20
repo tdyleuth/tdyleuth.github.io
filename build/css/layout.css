@@ -491,6 +491,7 @@ a.navbar-brand {
 .popup-modal .description-box {
     padding: 12px 36px 18px 36px;
 }
+
 .popup-modal .description-box h4 {
     font: 20px "opensans-bold", sans-serif;
     margin-bottom: 12px;
@@ -509,7 +510,7 @@ a.navbar-brand {
     display: block;
     text-align: left;
 }
-.popup-modal .description-box .categories i {
+.popup-modal .description-box {
     margin-right: 8px;
 }
 

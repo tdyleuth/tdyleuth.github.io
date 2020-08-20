@@ -151,11 +151,13 @@ function Portfolio() {
      --------------------------------------------------------------- */}
                 <div id="modal-01" className="popup-modal mfp-hide">
                     <div className="description-box">
-                        <img
-                            className="scale-with-grid"
-                            src="./images/screens/whack-a-virus-sc.png"
-                            alt=""
-                        />
+                        <div className="screen-container">
+                            <img
+                                className="scale-with-grid"
+                                src="./images/screens/whack-a-virus-sc.png"
+                                alt=""
+                            />
+                        </div>
                         <h4>Whack-A-Virus</h4>
                         <p>
                             Whack-A-Virus is my first attempt at creating a
@@ -186,11 +188,13 @@ function Portfolio() {
                 {/* modal-01 End */}
                 <div id="modal-02" className="popup-modal mfp-hide">
                     <div className="description-box">
-                        <img
-                            className="scale-with-grid"
-                            src="images/screens/the-news-sc.png"
-                            alt=""
-                        />
+                        <div className="screen-container">
+                            <img
+                                className="scale-with-grid"
+                                src="images/screens/the-news-sc.png"
+                                alt=""
+                            />
+                        </div>
                         <h4>The News</h4>
                         <p>
                             The News is a search aggregator web application
@@ -217,11 +221,13 @@ function Portfolio() {
                 {/* modal-02 End */}
                 <div id="modal-03" className="popup-modal mfp-hide">
                     <div className="description-box">
-                        <img
-                            className="scale-with-grid"
-                            src="./images/screens/the-great-linkerator-sc.png"
-                            alt=""
-                        />
+                        <div className="screen-container">
+                            <img
+                                className="scale-with-grid"
+                                src="./images/screens/the-great-linkerator-sc.png"
+                                alt=""
+                            />
+                        </div>
                         <h4>The Great Linkerator</h4>
                         <p>
                             The Great Linkerator is a collaboration on a full
@@ -250,12 +256,13 @@ function Portfolio() {
                 {/* modal-03 End */}
                 <div id="modal-04" className="popup-modal mfp-hide">
                     <div className="description-box">
-                        <img
-                            className="scale-with-grid"
-                            src="./images/screens/shop-ez-sc.png"
-                            alt=""
-                        />
-
+                        <div className="screen-container">
+                            <img
+                                className="scale-with-grid"
+                                src="./images/screens/shop-ez-sc.png"
+                                alt=""
+                            />
+                        </div>
                         <h4>Shop-EZ</h4>
                         <p>
                             Shop-EZ is a full stack e-commerce website
@@ -282,11 +289,13 @@ function Portfolio() {
                 {/* modal-04 End */}
                 <div id="modal-05" className="popup-modal mfp-hide">
                     <div className="description-box">
-                        <img
-                            className="scale-with-grid"
-                            src="./images/screens/to-do-app-sc.png"
-                            alt=""
-                        />
+                        <div className="screen-container">
+                            <img
+                                className="scale-with-grid"
+                                src="./images/screens/to-do-app-sc.png"
+                                alt=""
+                            />
+                        </div>
                         <h4>To Do App</h4>
                         <p>
                             My first "To Do" application using jQuery and
@@ -308,11 +317,13 @@ function Portfolio() {
                 {/* modal-05 End */}
                 <div id="modal-06" className="popup-modal mfp-hide">
                     <div className="description-box">
-                        <img
-                            className="scale-with-grid"
-                            src="./images/screens/retro-draw-sc.png"
-                            alt=""
-                        />
+                        <div className="screen-container">
+                            <img
+                                className="scale-with-grid"
+                                src="./images/screens/retro-draw-sc.png"
+                                alt=""
+                            />
+                        </div>
                         <h4>Retro Draw</h4>
                         <p>
                             Retro Draw is a fun web application allowing users
