@@ -85,7 +85,7 @@ header .social li a {
     color: #fff;
 }
 header .social li a:hover {
-    color: yellow;
+    color: rgb(223, 205, 0);
 }
 
 /* scrolldown link */
@@ -684,6 +684,7 @@ h5 {
     #contact p {
         margin-top: 15px;
         text-align: center;
+        font-size: 18px;
     }
 }
 /* ------------------------------------------------------------------ */
