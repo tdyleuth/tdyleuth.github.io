@@ -20,7 +20,7 @@ function Header({ resumeData }) {
                                 href="https://drive.google.com/file/d/1puSLPFZq7L9RSWNRUCfeFm0t188TAI1s/view?usp=sharing"
                                 target="blank"
                             >
-                                <i className="fa fa-file" />
+                                <i className="fa fa-file fa-lg" />
                             </a>
                         </li>
                         <li>
@@ -28,7 +28,7 @@ function Header({ resumeData }) {
                                 href="https://www.linkedin.com/in/tdyleuth/"
                                 target="blank"
                             >
-                                <i className="fa fa-linkedin" />
+                                <i className="fa fa-linkedin fa-lg" />
                             </a>
                         </li>
 
@@ -37,13 +37,13 @@ function Header({ resumeData }) {
                                 href="https://github.com/tdyleuth"
                                 target="blank"
                             >
-                                <i className="fa fa-github" />
+                                <i className="fa fa-github fa-lg" />
                             </a>
                         </li>
 
                         <li>
                             <a href="mailto:tony.dyleuth@gmail.com">
-                                <i className="fa fa-envelope" />
+                                <i className="fa fa-envelope fa-lg" />
                             </a>
                         </li>
                     </ul>

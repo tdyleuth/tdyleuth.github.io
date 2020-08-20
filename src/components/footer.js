@@ -11,7 +11,7 @@ function Footer() {
                                 href="https://drive.google.com/file/d/1puSLPFZq7L9RSWNRUCfeFm0t188TAI1s/view?usp=sharing"
                                 target="blank"
                             >
-                                <i className="fa fa-file" />
+                                <i className="fa fa-file fa-lg" />
                             </a>
                         </li>
                         <li>
@@ -19,7 +19,7 @@ function Footer() {
                                 href="https://www.linkedin.com/in/tdyleuth/"
                                 target="blank"
                             >
-                                <i className="fa fa-linkedin" />
+                                <i className="fa fa-linkedin fa-lg" />
                             </a>
                         </li>
 
@@ -28,13 +28,13 @@ function Footer() {
                                 href="https://github.com/tdyleuth"
                                 target="blank"
                             >
-                                <i className="fa fa-github" />
+                                <i className="fa fa-github fa-lg" />
                             </a>
                         </li>
 
                         <li>
                             <a href="mailto:tony.dyleuth@gmail.com">
-                                <i className="fa fa-envelope" />
+                                <i className="fa fa-envelope fa-lg" />
                             </a>
                         </li>
                     </ul>
@@ -50,7 +50,7 @@ function Footer() {
                         title="Back to Top"
                         href="#home"
                     >
-                        <i className="icon-up-open" />
+                        <i className="fa fa-arrow-up" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
