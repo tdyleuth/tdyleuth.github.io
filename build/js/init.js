@@ -111,4 +111,23 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         $.magnificPopup.close();
     });
+
+    // Nav Burger Slide
+    const navSlide = () => {
+        const burger = $(".burger");
+        const nav = $(".nav-links");
+
+        //Toggle Nav
+        burger.on("click", () => {
+            nav.toggleClass("nav-active");
+            burger.toggleClass("toggle");
+        });
+
+        nav.on("click", () => {
+            nav.toggleClass("nav-active");
+            burger.toggleClass("toggle");
+        });
+    };
+
+    navSlide();
 });

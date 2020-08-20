@@ -3,11 +3,23 @@ import React from "react";
 function Navbar() {
     return (
         <nav id="nav-wrap">
-            <a href="http://tdyleuth.github.io/" className="navbar-brand">
-                TD
-            </a>
+            <div className="mobile-container">
+                <div>
+                    <a
+                        href="http://tdyleuth.github.io/"
+                        className="navbar-brand"
+                    >
+                        TD
+                    </a>
+                </div>
+                <div className="burger">
+                    <div className="line1"></div>
+                    <div className="line2"></div>
+                    <div className="line3"></div>
+                </div>
+            </div>
 
-            <ul id="nav" className="nav">
+            <ul className="nav-links">
                 <li>
                     <a className="smoothscroll" href="#about">
                         About
@@ -31,11 +43,6 @@ function Navbar() {
                     </a>
                 </li>
             </ul>
-            <div className="burger">
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
-            </div>
         </nav>
     );
 }
