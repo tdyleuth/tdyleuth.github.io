@@ -175,7 +175,7 @@ function Portfolio() {
                             </a>
 
                             <a
-                                href="https://loving-bhabha-f96533.netlify.app/"
+                                href="https://github.com/tdyleuth/whack-a-virus"
                                 target="blank"
                             >
                                 View Source
