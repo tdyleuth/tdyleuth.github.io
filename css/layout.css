@@ -202,15 +202,20 @@ ul#nav li.current a {
     padding: 18px 10px;
 }
 
-.burger-menu {
-    opacity: 1;
-    border-color: white;
-}
-
 @media screen and (max-width: 768px) {
-    #nav {
+    .nav {
         display: none;
     }
+}
+
+.burger {
+    display: none;
+}
+.burger div {
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
 }
 
 /* ------------------------------------------------------------------ */
