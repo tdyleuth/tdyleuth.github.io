@@ -6,7 +6,7 @@ function Services() {
             <div className="section-overlay"></div>
             <h1 className="section-heading"> What I Do</h1>
             <div className="card-container">
-                <div className="card">
+                <div className="card" style={{ backgroundColor: "#e57373" }}>
                     <img
                         className="service-icons"
                         alt="Web Content"
@@ -18,7 +18,7 @@ function Services() {
                     <p>Javascript | jQuery</p>
                     <p>React</p>
                 </div>
-                <div className="card">
+                <div className="card" style={{ backgroundColor: "#64b5f6" }}>
                     <img
                         className="service-icons"
                         alt="Web Content"
@@ -31,7 +31,7 @@ function Services() {
                     <p>mySQL</p>
                 </div>
 
-                <div className="card">
+                <div className="card" style={{ backgroundColor: "#64ffda" }}>
                     <img
                         className="service-icons"
                         alt="Web Content"
