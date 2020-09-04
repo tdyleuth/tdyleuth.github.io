@@ -58,14 +58,14 @@ function Portfolio() {
                             <a href="#modal-03">
                                 <img
                                     className="img-screens"
-                                    alt="The Great Linkerator"
-                                    src="./images/screens/the-great-linkerator-sc.png"
+                                    alt="Hulu Clone"
+                                    src="./images/screens/hulu-clone_screenshot.png"
                                 />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
-                                        <h5>The Great Linkerator</h5>
+                                        <h5>Hulu Clone</h5>
                                         <p id="tech-categories">
-                                            React.js | Express | PostgreSQL
+                                            React.js | Firebase |
                                         </p>
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@ function Portfolio() {
                                 href="https://loving-bhabha-f96533.netlify.app/"
                                 target="blank"
                             >
-                                Visit Site
+                                Live Demo
                             </a>
 
                             <a
@@ -208,7 +208,7 @@ function Portfolio() {
                             href="https://thenews.netlify.app/"
                             target="blank"
                         >
-                            View Site
+                            Live Demo
                         </a>
                         <a
                             href="https://github.com/tdyleuth/theNews"
@@ -224,29 +224,27 @@ function Portfolio() {
                         <div className="screen-container">
                             <img
                                 className="scale-with-grid"
-                                src="./images/screens/the-great-linkerator-sc.png"
+                                src="./images/screens/hulu-clone_screenshot.png"
                                 alt=""
                             />
                         </div>
-                        <h4>The Great Linkerator</h4>
+                        <h4>Hulu Clone</h4>
                         <p>
-                            The Great Linkerator is a collaboration on a full
-                            stack web application allowing users to bookmark
-                            their favorite websites. This was on the first
-                            appliocations to combine the back-end and front-end
-                            using React.
+                            Hulu clone front-end application built using React
+                            and movie database API. Features animated cards
+                            using React components. Deployed on Firebase.
                         </p>
                     </div>
                     <div className="link-box">
                         <a
                             className="site-link"
-                            href="https://linkeratorthegreat.herokuapp.com/"
+                            href="https://hulu-clone-3de90.web.app/"
                             target="blank"
                         >
-                            Visit Site
+                            Live Demo
                         </a>
                         <a
-                            href="https://github.com/tdyleuth/TheGreatLinkerator"
+                            href="https://github.com/tdyleuth/hulu-clone"
                             target="blank"
                         >
                             View Source
@@ -276,7 +274,7 @@ function Portfolio() {
                             href="https://grace-shopper-ez-shop.herokuapp.com/"
                             target="blank"
                         >
-                            Visit Site
+                            Live Demo
                         </a>
                         <a
                             href="https://github.com/Shop-EZ/Shop-EZ"
@@ -310,7 +308,7 @@ function Portfolio() {
                             href="https://gifted-sinoussi-4ff286.netlify.app/"
                             target="blank"
                         >
-                            View Site
+                            Live Demo
                         </a>
                     </div>
                 </div>
@@ -339,7 +337,7 @@ function Portfolio() {
                             href="https://vibrant-poitras-548158.netlify.app/"
                             target="blank"
                         >
-                            View Site
+                            Live Demo
                         </a>
                     </div>
                 </div>

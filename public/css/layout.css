@@ -150,7 +150,7 @@ a.navbar-brand {
     text-decoration: none;
     text-align: left;
     font-size: 1.3em;
-    color: #fff;
+    color: #ffffff;
 }
 
 .opaque {
@@ -163,7 +163,7 @@ a.navbar-brand {
     width: 40%;
 }
 
-.nav-links a {
+.nav-links a:hover {
     color: #fff;
     text-decoration: none;
     letter-spacing: 3px;
@@ -527,8 +527,9 @@ a.navbar-brand {
     text-transform: uppercase;
     letter-spacing: 3px;
     cursor: pointer;
+    transition: transform 50ms ease-out;
 }
-.popup-modal a:hover {
+.popup-modal .link-box a:hover {
     color: #e8f223;
 }
 .popup-modal a.popup-modal-dismiss {
@@ -628,6 +629,9 @@ h5 {
 
 .service-heading {
     text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+
     padding-bottom: 2rem;
     font-size: 20px;
     text-transform: uppercase;
