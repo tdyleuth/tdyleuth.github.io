@@ -26,14 +26,10 @@ section {
 a,
 a:visited {
     text-decoration: none;
-    outline: 0;
-    color: #11abb0;
-
-    -webkit-transition: color 0.3s ease-in-out;
-    -moz-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;
+    color: #a99c9c;
+    transition: transform 50ms ease-out;
 }
+
 a:hover,
 a:focus {
     color: #313131;

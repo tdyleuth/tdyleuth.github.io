@@ -39,9 +39,9 @@ function Services() {
                     />
                     <h2 className="service-heading">Deployment</h2>
 
-                    <p>System Design</p>
                     <p>Git</p>
                     <p>Webpack | Babel</p>
+                    <p>Firebase</p>
                     <p>Heroku</p>
                 </div>
             </div>
