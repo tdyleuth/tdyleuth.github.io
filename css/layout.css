@@ -147,6 +147,7 @@ header .scrolldown a:hover {
 --------------------------------------------------------------------- */
 
 /* nav-wrap */
+
 #nav-wrap {
     display: flex;
     justify-content: space-between;
@@ -171,7 +172,6 @@ a.navbar-brand {
     font-size: 1.3em;
     color: #ffffff;
 }
-
 .opaque {
     background-color: rgb(0, 0, 0);
 }
