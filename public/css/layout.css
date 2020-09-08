@@ -26,6 +26,22 @@ header {
     overflow: hidden;
 }
 
+.animate-pop-in {
+    animation: pop-in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+    opacity: 0;
+}
+
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem) scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 /* vertically center banner section */
 header:before {
     content: "";
@@ -75,6 +91,7 @@ header .social {
     padding: 0;
     font-size: 30px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+    animation-delay: 1.2s;
 }
 header .social li {
     display: inline-block;
@@ -115,6 +132,7 @@ header .scrolldown a:hover {
 .header-name {
     font-size: 85px;
     text-transform: uppercase;
+    animation-delay: 0.8s;
 }
 
 .header-role {
@@ -122,6 +140,7 @@ header .scrolldown a:hover {
     margin-top: 2em;
     color: white;
     text-transform: uppercase;
+    animation-delay: 1s;
 }
 
 /* primary navigation

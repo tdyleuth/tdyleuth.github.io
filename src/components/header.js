@@ -6,15 +6,17 @@ function Header({ resumeData }) {
         <header id="home">
             <Navbar />
 
-            <div className="row banner">
+            <div className="row banner animate-pop-in">
                 <div className="banner-text">
-                    <h1 className="header-name">
+                    <h1 className="header-name animate-pop-in">
                         <span>{resumeData.name}</span>
                     </h1>
-                    <h2 className="header-role">{resumeData.role}</h2>
+                    <h2 className="header-role animate-pop-in">
+                        {resumeData.role}
+                    </h2>
 
                     <hr />
-                    <ul className="social">
+                    <ul className="social animate-pop-in">
                         <li>
                             <a
                                 href="https://drive.google.com/file/d/1puSLPFZq7L9RSWNRUCfeFm0t188TAI1s/view?usp=sharing"
