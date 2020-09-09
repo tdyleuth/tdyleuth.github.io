@@ -19,8 +19,8 @@ header {
     max-height: 750px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/header-background-2.jpg) no-repeat bottom
-        center;
+    background: #161415 url(../images/header-background-small.jpg) no-repeat
+        bottom center;
     background-size: cover;
     text-align: center;
     overflow: hidden;
@@ -147,6 +147,7 @@ header .scrolldown a:hover {
 --------------------------------------------------------------------- */
 
 /* nav-wrap */
+
 #nav-wrap {
     display: flex;
     justify-content: space-between;
@@ -171,7 +172,6 @@ a.navbar-brand {
     font-size: 1.3em;
     color: #ffffff;
 }
-
 .opaque {
     background-color: rgb(0, 0, 0);
 }

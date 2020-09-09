@@ -19,7 +19,7 @@ function Navbar() {
                 </div>
             </div>
 
-            <ul className="nav-links">
+            <ul className="nav-links ">
                 <li>
                     <a className="smoothscroll" href="#about">
                         About
