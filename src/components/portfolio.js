@@ -2,142 +2,141 @@ import React from "react";
 
 function Portfolio() {
     return (
-        <section id="portfolio">
+        <section id='portfolio'>
             <div>
                 <h1>What I've Done</h1>
-                {/* portfolio-wrapper */}
-                <div className="portfolio-container">
-                    <div className="columns portfolio-item">
-                        <div className="item-wrap">
-                            <a href="#modal-01">
+                <div className='portfolio-container'>
+                    <div className='columns portfolio-item'>
+                        <div className='item-wrap'>
+                            <a href='#modal-01'>
                                 <img
-                                    className="img-screens"
-                                    alt="whack-a-virus"
-                                    src="./images/screens/whack-a-virus-sc.png"
+                                    className='img-screens'
+                                    alt='whack-a-virus'
+                                    src='./images/screens/whack-a-virus-sc.png'
                                 />
-                                <div className="overlay">
-                                    <div className="portfolio-item-meta">
+                                <div className='overlay'>
+                                    <div className='portfolio-item-meta'>
                                         <h5>Whack-A-Virus</h5>
-                                        <p id="tech-categories">
+                                        <p id='tech-categories'>
                                             JavaScript | jQuery
                                         </p>
                                     </div>
                                 </div>
-                                <div className="link-icon">
-                                    <i className="icon-plus" />
+                                <div className='link-icon'>
+                                    <i className='icon-plus' />
                                 </div>
                             </a>
                         </div>
                     </div>{" "}
                     {/* item end */}
-                    <div className="columns portfolio-item">
-                        <div className="item-wrap">
-                            <a href="#modal-02">
+                    <div className='columns portfolio-item'>
+                        <div className='item-wrap'>
+                            <a href='#modal-02'>
                                 <img
-                                    className="img-screens"
-                                    alt="The News"
-                                    src="./images/screens/the-news-sc.png"
+                                    className='img-screens'
+                                    alt='The News'
+                                    src='./images/screens/the-news-sc.png'
                                 />
-                                <div className="overlay">
-                                    <div className="portfolio-item-meta">
+                                <div className='overlay'>
+                                    <div className='portfolio-item-meta'>
                                         <h5>The News</h5>
-                                        <p id="tech-categories">
+                                        <p id='tech-categories'>
                                             Vanilla JavaScript | jQuery
                                         </p>
                                     </div>
                                 </div>
-                                <div className="link-icon">
-                                    <i className="icon-plus" />
+                                <div className='link-icon'>
+                                    <i className='icon-plus' />
                                 </div>
                             </a>
                         </div>
                     </div>{" "}
                     {/* item end */}
-                    <div className="columns portfolio-item">
-                        <div className="item-wrap">
-                            <a href="#modal-03">
+                    <div className='columns portfolio-item'>
+                        <div className='item-wrap'>
+                            <a href='#modal-03'>
                                 <img
-                                    className="img-screens"
-                                    alt="Hulu Clone"
-                                    src="./images/screens/hulu-clone_screenshot.png"
+                                    className='img-screens'
+                                    alt='Hulu Clone'
+                                    src='./images/screens/hulu-clone_screenshot.png'
                                 />
-                                <div className="overlay">
-                                    <div className="portfolio-item-meta">
+                                <div className='overlay'>
+                                    <div className='portfolio-item-meta'>
                                         <h5>Hulu Clone</h5>
-                                        <p id="tech-categories">
+                                        <p id='tech-categories'>
                                             React.js | Firebase |
                                         </p>
                                     </div>
                                 </div>
-                                <div className="link-icon">
-                                    <i className="icon-plus" />
+                                <div className='link-icon'>
+                                    <i className='icon-plus' />
                                 </div>
                             </a>
                         </div>
                     </div>{" "}
                     {/* item end */}
-                    <div className="columns portfolio-item">
-                        <div className="item-wrap">
-                            <a href="#modal-04">
+                    <div className='columns portfolio-item'>
+                        <div className='item-wrap'>
+                            <a href='#modal-04'>
                                 <img
-                                    className="img-screens"
-                                    alt="Shop EZ"
-                                    src="./images/screens/shop-ez-sc.png"
+                                    className='img-screens'
+                                    alt='Shop EZ'
+                                    src='./images/screens/shop-ez-sc.png'
                                 />
-                                <div className="overlay">
-                                    <div className="portfolio-item-meta">
+                                <div className='overlay'>
+                                    <div className='portfolio-item-meta'>
                                         <h5>Shop EZ</h5>
-                                        <p className="tech-categories">
+                                        <p className='tech-categories'>
                                             React.js | Express | PostgreSQL
                                         </p>
                                     </div>
                                 </div>
-                                <div className="link-icon">
-                                    <i className="icon-plus" />
+                                <div className='link-icon'>
+                                    <i className='icon-plus' />
                                 </div>
                             </a>
                         </div>
                     </div>{" "}
-                    <div className="columns portfolio-item">
-                        <div className="item-wrap">
-                            <a href="#modal-06">
+                    <div className='columns portfolio-item'>
+                        <div className='item-wrap'>
+                            <a href='#modal-06'>
                                 <img
-                                    className="img-screens"
-                                    alt="Retro Draw"
-                                    src="./images/screens/retro-draw-sc.png"
+                                    className='img-screens'
+                                    alt='Retro Draw'
+                                    src='./images/screens/retro-draw-sc.png'
                                 />
-                                <div className="overlay">
-                                    <div className="portfolio-item-meta">
+                                <div className='overlay'>
+                                    <div className='portfolio-item-meta'>
                                         <h5>Retro Draw</h5>
-                                        <p id="tech-categories">
+                                        <p id='tech-categories'>
                                             Vanilla JavaScript | jQuery
                                         </p>
                                     </div>
                                 </div>
-                                <div className="link-icon">
-                                    <i className="icon-plus" />
+                                <div className='link-icon'>
+                                    <i className='icon-plus' />
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <div className="columns portfolio-item">
-                        <div className="item-wrap">
-                            <a href="#modal-05">
+                    <div className='columns portfolio-item'>
+                        <div className='item-wrap'>
+                            <a href='#modal-05'>
                                 <img
-                                    className="img-screens"
-                                    alt="To Do App"
-                                    src="./images/screens/to-do-app-sc.png"
+                                    className='img-screens'
+                                    alt='To Do App'
+                                    src='./images/screens/to-do-app-sc.png'
                                 />
-                                <div className="overlay">
-                                    <div className="portfolio-item-meta">
+                                <div className='overlay'>
+                                    <div className='portfolio-item-meta'>
                                         <h5>To Do App</h5>
-                                        <p id="tech-categories">
+                                        <p id='tech-categories'>
                                             Vanilla JavaScript | jQuery
                                         </p>
                                     </div>
                                 </div>
-                                <div className="link-icon">
-                                    <i className="icon-plus" />
+                                <div className='link-icon'>
+                                    <i className='icon-plus' />
                                 </div>
                             </a>
                         </div>
@@ -149,13 +148,13 @@ function Portfolio() {
                 {/* twelve columns end */}
                 {/* Modal Popup
      --------------------------------------------------------------- */}
-                <div id="modal-01" className="popup-modal mfp-hide">
-                    <div className="description-box">
-                        <div className="screen-container">
+                <div id='modal-01' className='popup-modal mfp-hide'>
+                    <div className='description-box'>
+                        <div className='screen-container'>
                             <img
-                                className="scale-with-grid"
-                                src="./images/screens/whack-a-virus-sc.png"
-                                alt=""
+                                className='scale-with-grid'
+                                src='./images/screens/whack-a-virus-sc.png'
+                                alt=''
                             />
                         </div>
                         <h4>Whack-A-Virus</h4>
@@ -166,19 +165,19 @@ function Portfolio() {
                             javascript.
                         </p>
                     </div>
-                    <div className="link-box">
+                    <div className='link-box'>
                         <p>
                             <a
-                                className="site-link"
-                                href="https://loving-bhabha-f96533.netlify.app/"
-                                target="blank"
+                                className='site-link'
+                                href='https://loving-bhabha-f96533.netlify.app/'
+                                target='blank'
                             >
                                 Live Demo
                             </a>
 
                             <a
-                                href="https://github.com/tdyleuth/whack-a-virus"
-                                target="blank"
+                                href='https://github.com/tdyleuth/whack-a-virus'
+                                target='blank'
                             >
                                 View Source
                             </a>
@@ -186,13 +185,13 @@ function Portfolio() {
                     </div>
                 </div>
                 {/* modal-01 End */}
-                <div id="modal-02" className="popup-modal mfp-hide">
-                    <div className="description-box">
-                        <div className="screen-container">
+                <div id='modal-02' className='popup-modal mfp-hide'>
+                    <div className='description-box'>
+                        <div className='screen-container'>
                             <img
-                                className="scale-with-grid"
-                                src="images/screens/the-news-sc.png"
-                                alt=""
+                                className='scale-with-grid'
+                                src='images/screens/the-news-sc.png'
+                                alt=''
                             />
                         </div>
                         <h4>The News</h4>
@@ -202,30 +201,30 @@ function Portfolio() {
                             keywords with optional category/language filtering.
                         </p>
                     </div>
-                    <div className="link-box">
+                    <div className='link-box'>
                         <a
-                            className="site-link"
-                            href="https://thenews.netlify.app/"
-                            target="blank"
+                            className='site-link'
+                            href='https://thenews.netlify.app/'
+                            target='blank'
                         >
                             Live Demo
                         </a>
                         <a
-                            href="https://github.com/tdyleuth/theNews"
-                            target="blank"
+                            href='https://github.com/tdyleuth/theNews'
+                            target='blank'
                         >
                             View Source
                         </a>
                     </div>
                 </div>
                 {/* modal-02 End */}
-                <div id="modal-03" className="popup-modal mfp-hide">
-                    <div className="description-box">
-                        <div className="screen-container">
+                <div id='modal-03' className='popup-modal mfp-hide'>
+                    <div className='description-box'>
+                        <div className='screen-container'>
                             <img
-                                className="scale-with-grid"
-                                src="./images/screens/hulu-clone_screenshot.png"
-                                alt=""
+                                className='scale-with-grid'
+                                src='./images/screens/hulu-clone_screenshot.png'
+                                alt=''
                             />
                         </div>
                         <h4>Hulu Clone</h4>
@@ -235,30 +234,30 @@ function Portfolio() {
                             using React components. Deployed on Firebase.
                         </p>
                     </div>
-                    <div className="link-box">
+                    <div className='link-box'>
                         <a
-                            className="site-link"
-                            href="https://hulu-clone-3de90.web.app/"
-                            target="blank"
+                            className='site-link'
+                            href='https://hulu-clone-3de90.web.app/'
+                            target='blank'
                         >
                             Live Demo
                         </a>
                         <a
-                            href="https://github.com/tdyleuth/hulu-clone"
-                            target="blank"
+                            href='https://github.com/tdyleuth/hulu-clone'
+                            target='blank'
                         >
                             View Source
                         </a>
                     </div>
                 </div>
                 {/* modal-03 End */}
-                <div id="modal-04" className="popup-modal mfp-hide">
-                    <div className="description-box">
-                        <div className="screen-container">
+                <div id='modal-04' className='popup-modal mfp-hide'>
+                    <div className='description-box'>
+                        <div className='screen-container'>
                             <img
-                                className="scale-with-grid"
-                                src="./images/screens/shop-ez-sc.png"
-                                alt=""
+                                className='scale-with-grid'
+                                src='./images/screens/shop-ez-sc.png'
+                                alt=''
                             />
                         </div>
                         <h4>Shop-EZ</h4>
@@ -268,30 +267,30 @@ function Portfolio() {
                             Academy.
                         </p>
                     </div>
-                    <div className="link-box">
+                    <div className='link-box'>
                         <a
-                            className="site-link"
-                            href="https://grace-shopper-ez-shop.herokuapp.com/"
-                            target="blank"
+                            className='site-link'
+                            href='https://grace-shopper-ez-shop.herokuapp.com/'
+                            target='blank'
                         >
                             Live Demo
                         </a>
                         <a
-                            href="https://github.com/Shop-EZ/Shop-EZ"
-                            target="blank"
+                            href='https://github.com/Shop-EZ/Shop-EZ'
+                            target='blank'
                         >
                             View Source
                         </a>
                     </div>
                 </div>
                 {/* modal-04 End */}
-                <div id="modal-05" className="popup-modal mfp-hide">
-                    <div className="description-box">
-                        <div className="screen-container">
+                <div id='modal-05' className='popup-modal mfp-hide'>
+                    <div className='description-box'>
+                        <div className='screen-container'>
                             <img
-                                className="scale-with-grid"
-                                src="./images/screens/to-do-app-sc.png"
-                                alt=""
+                                className='scale-with-grid'
+                                src='./images/screens/to-do-app-sc.png'
+                                alt=''
                             />
                         </div>
                         <h4>To Do App</h4>
@@ -302,24 +301,24 @@ function Portfolio() {
                             about basic DOM manipulation.
                         </p>
                     </div>
-                    <div className="link-box">
+                    <div className='link-box'>
                         <a
-                            className="site-link"
-                            href="https://gifted-sinoussi-4ff286.netlify.app/"
-                            target="blank"
+                            className='site-link'
+                            href='https://gifted-sinoussi-4ff286.netlify.app/'
+                            target='blank'
                         >
                             Live Demo
                         </a>
                     </div>
                 </div>
                 {/* modal-05 End */}
-                <div id="modal-06" className="popup-modal mfp-hide">
-                    <div className="description-box">
-                        <div className="screen-container">
+                <div id='modal-06' className='popup-modal mfp-hide'>
+                    <div className='description-box'>
+                        <div className='screen-container'>
                             <img
-                                className="scale-with-grid"
-                                src="./images/screens/retro-draw-sc.png"
-                                alt=""
+                                className='scale-with-grid'
+                                src='./images/screens/retro-draw-sc.png'
+                                alt=''
                             />
                         </div>
                         <h4>Retro Draw</h4>
@@ -331,11 +330,11 @@ function Portfolio() {
                             jQuery.
                         </p>
                     </div>
-                    <div className="link-box">
+                    <div className='link-box'>
                         <a
-                            className="site-link"
-                            href="https://vibrant-poitras-548158.netlify.app/"
-                            target="blank"
+                            className='site-link'
+                            href='https://vibrant-poitras-548158.netlify.app/'
+                            target='blank'
                         >
                             Live Demo
                         </a>
