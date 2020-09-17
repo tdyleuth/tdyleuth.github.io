@@ -632,6 +632,8 @@ h5 {
 
 .card p {
     font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
 }
 
 .card:hover {
