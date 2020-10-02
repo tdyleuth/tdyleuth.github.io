@@ -2,14 +2,14 @@ import React from "react";
 
 function About({ resumeData }) {
     return (
-        <section id="about">
-            <div className="about-container">
-                <div className="profile-container">
-                    <h1 className="about-header">About Me</h1>
+        <section id='about'>
+            <div className='about-container'>
+                <div className='profile-container'>
+                    <h1 className='about-header'>About Me</h1>
                     <img
-                        id="profile-pic"
-                        src="./images/profilepic.jpg"
-                        alt=""
+                        id='profile-pic'
+                        src='./images/profilepic.jpg'
+                        alt=''
                     />
                 </div>
                 <div>
@@ -20,22 +20,22 @@ function About({ resumeData }) {
                     </p>
                     <br></br>
 
-                    <div className="about-detail-container">
-                        <p className="about-email">
+                    <div className='about-detail-container'>
+                        <p className='about-email'>
                             <span>
                                 Get in touch:{" "}
-                                <a href="mailto: tony.dyleuth@gmail.com">
+                                <a href='mailto: tony.dyleuth@gmail.com'>
                                     {resumeData.email}
                                 </a>
                             </span>
                         </p>
-                        <div id="button-container">
+                        <div id='button-container'>
                             <a
-                                href="https://drive.google.com/file/d/1puSLPFZq7L9RSWNRUCfeFm0t188TAI1s/view?usp=sharing"
-                                target="blank"
-                                className="download-button"
+                                href='https://drive.google.com/file/d/14whjaAtMUNDd1hFUocb0wfSsbSNNJ31b/view?usp=sharing'
+                                target='blank'
+                                className='download-button'
                             >
-                                <i className="fa fa-download" />
+                                <i className='fa fa-download' />
                                 Download Resume
                             </a>
                         </div>
