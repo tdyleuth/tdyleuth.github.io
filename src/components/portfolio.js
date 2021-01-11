@@ -8,6 +8,30 @@ function Portfolio() {
                 <div className='portfolio-container'>
                     <div className='columns portfolio-item'>
                         <div className='item-wrap'>
+                            <a href='#modal-05'>
+                                <img
+                                    className='img-screens'
+                                    alt='To Do App'
+                                    src='./images/screens/video-library-sc.png'
+                                />
+                                <div className='overlay'>
+                                    <div className='portfolio-item-meta'>
+                                        <h5>Video-library</h5>
+                                        <p id='tech-categories'>
+                                            React | Express | MongoDB
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className='link-icon'>
+                                    <i className='icon-plus' />
+                                </div>
+                            </a>
+                        </div>
+
+                        {/* item end */}
+                    </div>{" "}
+                    <div className='columns portfolio-item'>
+                        <div className='item-wrap'>
                             <a href='#modal-01'>
                                 <img
                                     className='img-screens'
@@ -119,30 +143,6 @@ function Portfolio() {
                             </a>
                         </div>
                     </div>
-                    <div className='columns portfolio-item'>
-                        <div className='item-wrap'>
-                            <a href='#modal-05'>
-                                <img
-                                    className='img-screens'
-                                    alt='To Do App'
-                                    src='./images/screens/to-do-app-sc.png'
-                                />
-                                <div className='overlay'>
-                                    <div className='portfolio-item-meta'>
-                                        <h5>To Do App</h5>
-                                        <p id='tech-categories'>
-                                            Vanilla JavaScript | jQuery
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className='link-icon'>
-                                    <i className='icon-plus' />
-                                </div>
-                            </a>
-                        </div>
-
-                        {/* item end */}
-                    </div>{" "}
                     {/* portfolio-wrapper end */}
                 </div>{" "}
                 {/* twelve columns end */}
@@ -289,25 +289,33 @@ function Portfolio() {
                         <div className='screen-container'>
                             <img
                                 className='scale-with-grid'
-                                src='./images/screens/to-do-app-sc.png'
+                                src='./images/screens/video-library-sc.png'
                                 alt=''
                             />
                         </div>
-                        <h4>To Do App</h4>
+                        <h4>Video Library</h4>
                         <p>
-                            My first "To Do" application using jQuery and
-                            vanilla JavaScript allowing users to create and
-                            delete "To Do" items. A great intro into learning
-                            about basic DOM manipulation.
+                            A Full stack MERN web application for storing Video
+                            information content in a library format where user
+                            can browse and search for Video by title or
+                            register/login to insert a video. Most of the
+                            front-end was built using custom CSS without the
+                            reliability a CSS libraries.
                         </p>
                     </div>
                     <div className='link-box'>
                         <a
                             className='site-link'
-                            href='https://gifted-sinoussi-4ff286.netlify.app/'
+                            href='https://video-library-app.herokuapp.com/'
                             target='blank'
                         >
                             Live Demo
+                        </a>
+                        <a
+                            href='https://github.com/tdyleuth/video-library'
+                            target='blank'
+                        >
+                            View Source
                         </a>
                     </div>
                 </div>

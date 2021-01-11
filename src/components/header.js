@@ -19,7 +19,7 @@ function Header({ resumeData }) {
                     <ul className='social animate-pop-in'>
                         <li>
                             <a
-                                href='https://drive.google.com/file/d/1QgOBbFNsPaDjBGMBI8iVEF91PRwFXHZS/view?usp=sharing'
+                                href='https://drive.google.com/file/d/1lPPRg3bD2xblzNqoeeB6g2debgQv4TY7/view?usp=sharing'
                                 target='blank'
                             >
                                 <i className='fa fa-file fa-lg' />
