@@ -44,7 +44,7 @@ header {
 
 /* vertically center banner section */
 header:before {
-    content: "";
+    content: '';
     display: inline-block;
     vertical-align: middle;
     height: 100%;
@@ -68,7 +68,7 @@ header .banner-text h1 {
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
-    font: 18px/1.9em "librebaskerville-regular", serif;
+    font: 18px/1.9em 'librebaskerville-regular', serif;
     color: #f5f5f5;
     margin: 0 auto;
     width: 70%;
@@ -152,7 +152,7 @@ header .scrolldown a:hover {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font: 12px "opensans-bold", sans-serif;
+    font: 12px 'opensans-bold', sans-serif;
     width: 100%;
     height: 60px;
     text-transform: uppercase;
@@ -160,7 +160,7 @@ header .scrolldown a:hover {
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: 999;
 }
 a.navbar-brand {
     display: inline-block;
@@ -230,16 +230,17 @@ a.navbar-brand {
         background-color: rgb(0, 0, 0, 0.8);
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         right: 0px;
         height: 100vh;
-        top: 4vh;
+        top: 0;
         display: flex;
         flex-direction: column;
         background-color: rgb(0, 0, 0, 0.8);
         font-size: 15px;
         align-items: center;
         width: 50%;
+        z-index: -1;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         border-radius: 4px;
@@ -247,6 +248,7 @@ a.navbar-brand {
 
     .nav-links li {
         color: white;
+        font-size: 1.2rem;
     }
     .burger {
         display: block;
@@ -305,7 +307,7 @@ a.navbar-brand {
 }
 
 #about h2 {
-    font: 22px/30px "opensans-bold", sans-serif;
+    font: 22px/30px 'opensans-bold', sans-serif;
     color: #ffffff;
     margin-bottom: 12px;
 }
@@ -354,7 +356,7 @@ a.navbar-brand {
     margin: 10px 15px 18px 0;
     background: #0666da;
     padding-top: 6px;
-    font: 16px/30px "opensans-bold", sans-serif;
+    font: 16px/30px 'opensans-bold', sans-serif;
     text-decoration: none;
     color: #fff;
     padding: 12px 20px;
@@ -394,7 +396,7 @@ a.navbar-brand {
     width: 300px;
 }
 #portfolio h1 {
-    font: 30px "opensans-semibold", sans-serif;
+    font: 30px 'opensans-semibold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
@@ -403,7 +405,7 @@ a.navbar-brand {
 }
 
 #portfolio p {
-    font: 15px "opensans-semibold", sans-serif;
+    font: 15px 'opensans-semibold', sans-serif;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
@@ -411,7 +413,7 @@ a.navbar-brand {
 }
 
 #tech-categories p {
-    font: 15px "opensans-light", sans-serif;
+    font: 15px 'opensans-light', sans-serif;
     text-align: center;
     color: #ffffff;
     margin-bottom: 0;
@@ -474,11 +476,11 @@ a.navbar-brand {
     padding: 18px;
 }
 .portfolio-item .portfolio-item-meta h5 {
-    font: 18px "opensans-bold", sans-serif;
+    font: 18px 'opensans-bold', sans-serif;
     color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-    font: 12px/18px "opensans-light", sans-serif;
+    font: 12px/18px 'opensans-light', sans-serif;
     text-align: center;
     color: #ffffff;
     margin-bottom: 0;
@@ -515,19 +517,19 @@ a.navbar-brand {
 }
 
 .popup-modal .description-box h4 {
-    font: 20px "opensans-bold", sans-serif;
+    font: 20px 'opensans-bold', sans-serif;
     text-align: center;
     margin-bottom: 12px;
     margin-top: 1.5rem;
     color: #111;
 }
 .popup-modal .description-box p {
-    font: 16px "opensans-regular", sans-serif;
+    font: 16px 'opensans-regular', sans-serif;
     color: #000000;
     margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-    font: 11px/21px "opensans-light", sans-serif;
+    font: 11px/21px 'opensans-light', sans-serif;
     color: #a1a1a1;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -542,7 +544,7 @@ a.navbar-brand {
 }
 .popup-modal .link-box a {
     color: #fff;
-    font: 15px "opensans", sans-serif;
+    font: 15px 'opensans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     cursor: pointer;
@@ -695,7 +697,7 @@ h5 {
 }
 
 #contact h1 {
-    font: 35px "opensans-bold", sans-serif;
+    font: 35px 'opensans-bold', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -756,7 +758,7 @@ footer .copyright li {
     display: inline;
 }
 footer .copyright li:before {
-    content: "\2022";
+    content: '\2022';
     padding-left: 10px;
     padding-right: 10px;
     color: #095153;
