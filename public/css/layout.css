@@ -227,7 +227,7 @@ a.navbar-brand {
         overscroll-behavior-x: hidden;
     }
     nav {
-        background-color: rgb(0, 0, 0, 0.8);
+        background-color: #000;
     }
     .nav-links {
         position: fixed;
