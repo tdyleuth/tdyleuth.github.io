@@ -1,6 +1,6 @@
 import React from "react";
 
-function About({ resumeData }) {
+const About = ({ resumeData }) => {
     return (
         <section id='about'>
             <div className='about-container'>
@@ -47,3 +47,4 @@ function About({ resumeData }) {
 }
 
 export default About;
+
