@@ -1,11 +1,11 @@
-@import url("fonts.css");
-@import url("font-awesome/css/font-awesome.min.css");
+@import url('fonts.css');
+@import url('font-awesome/css/font-awesome.min.css');
 
 body {
     background: #fff;
     margin: auto;
     box-sizing: border-box;
-    font-family: "opensans-regular", sans-serif;
+    font-family: 'opensans-regular', sans-serif;
     font-weight: normal;
     font-size: 15px;
     line-height: 30px;
@@ -122,7 +122,7 @@ img.pull-left {
 /* row clearing */
 .row:before,
 .row:after {
-    content: " ";
+    content: ' ';
     display: table;
 }
 .row:after {
@@ -148,4 +148,10 @@ img.pull-left {
 .column.collapsed,
 .columns.collapsed {
     padding: 0;
+}
+
+@media (max-width: 400px) {
+    .columns {
+        margin-bottom: 1rem;
+    }
 }
