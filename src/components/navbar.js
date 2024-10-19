@@ -6,7 +6,7 @@ function Navbar() {
             <div className="mobile-container">
                 <div>
                     <a
-                        href="http://tdyleuth.github.io/"
+                        href="http://tonydyleuth.github.io/"
                         className="navbar-brand"
                     >
                         TD

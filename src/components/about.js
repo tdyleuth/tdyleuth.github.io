@@ -14,9 +14,7 @@ const About = ({ resumeData }) => {
                 </div>
                 <div>
                     <p>
-                        Hello! I'm Tony, a design-minded front-end software
-                        engineer with full stack experience focused on building
-                        beautiful interfaces & experiences.
+                    Hi! I’m Tony, a experienced Software Engineer currently based in Los Angeles, California.
                     </p>
                     <br></br>
 
@@ -31,7 +29,7 @@ const About = ({ resumeData }) => {
                         </p>
                         <div id='button-container'>
                             <a
-                                href='https://drive.google.com/file/d/1lPPRg3bD2xblzNqoeeB6g2debgQv4TY7/view?usp=sharing'
+                                href='https://drive.google.com/file/d/1NC5NjCFeExVn2PhJhziuLaBiqutUtFE_/view?usp=sharing'
                                 target='blank'
                                 className='download-button'
                             >
