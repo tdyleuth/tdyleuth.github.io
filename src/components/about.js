@@ -29,7 +29,7 @@ const About = ({ resumeData }) => {
                         </p>
                         <div id='button-container'>
                             <a
-                                href='https://drive.google.com/file/d/1NC5NjCFeExVn2PhJhziuLaBiqutUtFE_/view?usp=sharing'
+                                href='https://drive.google.com/file/d/1HG3NsQsNNxtfg7R21OceqBZBfvVh70rY/view?usp=drive_link'
                                 target='blank'
                                 className='download-button'
                             >
@@ -44,5 +44,4 @@ const About = ({ resumeData }) => {
     );
 }
 
-export default About;
-
+export default About
