@@ -29,7 +29,7 @@ const About = ({ resumeData }) => {
                         </p>
                         <div id='button-container'>
                             <a
-                                href='https://drive.google.com/file/d/1HG3NsQsNNxtfg7R21OceqBZBfvVh70rY/view?usp=drive_link'
+                                href='https://drive.google.com/file/d/1_9BRPt6peg9eTbw1QcUysAbEkE2ike6-/view?usp=drive_link'
                                 target='blank'
                                 className='download-button'
                             >
