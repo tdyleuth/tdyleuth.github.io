@@ -13,10 +13,11 @@ function Services() {
                         src="./images/web-content.png"
                     />
                     <h2 className="service-heading">Front End</h2>
-                    <p>HTML5</p>
+                    <p>TypeScript</p>
+                    <p>React</p>
+                    <p>Vite</p>
                     <p>CSS | SASS</p>
                     <p>Javascript | jQuery</p>
-                    <p>React</p>
                 </div>
                 <div className="card" style={{ backgroundColor: "#64b5f6" }}>
                     <img
@@ -25,10 +26,11 @@ function Services() {
                         src="./images/server.png"
                     />
                     <h2 className="service-heading">Back End</h2>
+                    <p>C# | .Net</p>
                     <p>Node.js</p>
                     <p>Express</p>
-                    <p>PostgreSQL</p>
-                    <p>mySQL</p>
+                    <p>SQL</p>
+                    <p>NoSQL | MongoDB</p>
                 </div>
 
                 <div className="card" style={{ backgroundColor: "#64ffda" }}>
@@ -39,9 +41,10 @@ function Services() {
                     />
                     <h2 className="service-heading">Deployment</h2>
 
-                    <p>Git</p>
-                    <p>Webpack | Babel</p>
-                    <p>Firebase</p>
+                    <p>Github</p>
+                    <p>Azure</p>
+                    <p>AWS</p>
+                    <p>Docker</p>
                     <p>Heroku</p>
                 </div>
             </div>

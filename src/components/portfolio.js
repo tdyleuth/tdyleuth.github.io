@@ -4,7 +4,7 @@ function Portfolio() {
     return (
         <section id='portfolio'>
             <div>
-                <h1>What I've Done</h1>
+                <h1>Personal Projects</h1>
                 <div className='portfolio-container'>
                     <div className='columns portfolio-item'>
                         <div className='item-wrap'>

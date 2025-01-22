@@ -14,7 +14,7 @@ const About = ({ resumeData }) => {
                 </div>
                 <div>
                     <p>
-                    Hi! I’m Tony, a experienced Software Engineer currently based in Los Angeles, California.
+                    Hi! I’m Tony, a experienced Software Engineer currently based in Los Angeles, CA.
                     </p>
                     <br></br>
 
